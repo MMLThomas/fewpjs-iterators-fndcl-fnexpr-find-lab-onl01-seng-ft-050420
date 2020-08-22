@@ -5,4 +5,6 @@ function testFunc() {
 }
 
 
-let superbowlWin = record.find(function(r) { return r.result === 'W'});
+function superbowlWin(record){
+  record.find(function(r) { r.result === 'W' return r.year})
+}
